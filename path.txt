@@ -1,0 +1,16 @@
+Experiment -01
+-EKF_log_70 shows better vision performance, minor outliers.
+defname = '/volume/USERSTORE/f_deosim/Phillip/svn/icra17/SD_model/LBR4p_DEOSSIM_ID_GripperNEWCamMount_m500_mod22.def'
+
+
+Experiment -02
+Path to store the topDeosHIL information - receiver data stored for 2 deg/sec
+-tracking with Vision + EKF.
+/volume/USERSTORE/f_deosim/Phillip/svn/icra17/data/2018-2-20-14-50-29_autonomous_msrData
+-EKF_log_71 shows deterioration of vision meas, towards end. Shows how KF filters and rejects
+defname = '/volume/USERSTORE/f_deosim/Phillip/svn/icra17/SD_model/LBR4p_DEOSSIM_ID_GripperNEWCamMount_m500_mod22.def'
+
+Experiment- 03
+defname = '/volume/USERSTORE/f_deosim/Phillip/svn/icra17/SD_model/LBR4p_DEOSSIM_ID_GripperNEWCamMount_m500_mod22.def'
+log_receiver_8.mat has all the receiver data
+EKF_log_74 contains EKF and vision data 
