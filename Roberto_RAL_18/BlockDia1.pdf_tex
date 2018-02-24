@@ -1,0 +1,114 @@
+%% Creator: Inkscape inkscape 0.91, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'BlockDia1.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{573.67119446bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.39138844)%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{BlockDia1.pdf}}%
+    \put(0.72602815,0.14548871){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$H_t(V_t)$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{BlockDia1.pdf}}%
+    \put(0.2993235,0.31917064){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.0696483\unitlength}\raggedright +\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{BlockDia1.pdf}}%
+    \put(0.60532131,0.31213614){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\int$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{BlockDia1.pdf}}%
+    \put(0.66845692,0.32442572){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.05653832\unitlength}\raggedright $\int$\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{BlockDia1.pdf}}%
+    \put(0.13155684,0.31940402){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.04978471\unitlength}\raggedright +\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{BlockDia1.pdf}}%
+    \put(0.06047943,0.38115237){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31156083\unitlength}\raggedright $\begin{bmatrix}H_{ge,ref} \\ V_{ge,ref}\end{bmatrix}$\\ \end{minipage}}}%
+    \put(0.17685123,0.31059492){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Visual Servo}}}%
+    \put(0.33852607,0.33528148){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Compliant}}}%
+    \put(0.33887824,0.32119457){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Controller}}}%
+    \put(0.3560675,0.30597606){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(PD}}}%
+    \put(0.26915861,0.34334376){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{bmatrix}H_{e,des}\\V_{e,des}\end{bmatrix}$}}}%
+    \put(0.33077829,0.28946453){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{+ nullspace)}}}%
+    \put(0.07383917,0.23298171){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{bmatrix}q_{ref}\\\dot{q}_{ref} \end{bmatrix}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{BlockDia1.pdf}}%
+    \put(0.51050751,0.32186434){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Plant}}}}%
+    \put(0.48136467,0.30645028){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small{(chaser}}}}%
+    \put(0.49318211,0.27738996){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small{dynamics)}}}}%
+    \put(0.62153545,0.22187601){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$V_{e}$}}}%
+    \put(0.55814818,0.17729179){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$H_{ge}$}}}%
+    \put(0.28502435,0.30005805){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
+    \put(0.12288393,0.30002975){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
+    \put(0.42086996,0.33394304){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{bmatrix}\tau_{cart} \\ \tau_{null}\end{bmatrix}$}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{BlockDia1.pdf}}%
+    \put(0.05310287,0.32028525){\color[rgb]{0,0,0}\makebox(0,0)[b]{\smash{Motion }}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{BlockDia1.pdf}}%
+    \put(0.62680506,0.15498293){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{/Vision}}}%
+    \put(0.62859797,0.16942626){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Camera}}}%
+    \put(0.68258619,0.2223187){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$H_e$}}}%
+    \put(0.01170154,0.30100989){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Synthesizer}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{BlockDia1.pdf}}%
+    \put(0.62264301,0.34898153){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{kinematics}}}%
+    \put(0.5918186,0.33702868){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{(base/manipulator)}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{BlockDia1.pdf}}%
+    \put(0.46902421,0.1537877){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{observer}}}%
+    \put(0.25606003,0.17769388){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\hat{H}_{ge}$}}}%
+    \put(0.48247143,0.16673687){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{EKF}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{BlockDia1.pdf}}%
+    \put(0.5566802,0.15428571){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$10 Hz$}}}%
+    \put(0.11410803,0.38666385){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.66419502\unitlength}\raggedright \end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{BlockDia1.pdf}}%
+    \put(0.13782405,0.06961803){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$-$}}}%
+    \put(0.16536241,0.08331238){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{+}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{BlockDia1.pdf}}%
+    \put(0.23932569,0.10323605){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Joint space}}}%
+    \put(0.23683547,0.08704962){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Stabilization}}}%
+    \put(0.24480419,0.07036508){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{Controller}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{BlockDia1.pdf}}%
+    \put(-0.00049707,0.10507888){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{bmatrix}q(t_g) \\ \dot{q}(t_g)\end{bmatrix}$}}}%
+    \put(0.72003916,0.23666244){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{bmatrix}q(t) \\ \dot{q}(t)\end{bmatrix}$}}}%
+    \put(0.36194446,0.09103394){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\tau$}}}%
+    \put(0.48187422,0.29214485){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\small{+manipulator}}}}%
+    \put(0.59138838,0.28079631){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{$\begin{Bmatrix}V_e, & \dot{q}, & q, &H_e \end{Bmatrix}$}}}%
+    \put(0.17069504,0.01035054){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Stabilization}}}}%
+    \put(0.21014023,0.37850577){\color[rgb]{0,0,0}\makebox(0,0)[lb]{\smash{\textbf{Target tracking}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{BlockDia1.pdf}}%
+  \end{picture}%
+\endgroup%

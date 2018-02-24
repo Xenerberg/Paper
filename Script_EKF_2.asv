@@ -1,0 +1,9 @@
+figure;
+subplot(2,1,1)
+h1 = plot(t,EKF_log(:,36:38),'LineWidth',1);hold all;
+h2 = plot(t,[repmat(2*pi/180,size(t))',repmat(0*pi/180,size(t))',repmat(0*pi/180,size(t))'],'-.');grid on;
+
+l = legend([h1(1) h2(1)],{'hat','true'},'Location','South','Orientation','Horizontal');
+
+
+

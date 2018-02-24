@@ -1,0 +1,21 @@
+x = t;
+y = EKF_log(:,1);
+y(end) = NaN;
+c = log(EKF_log(:,42));
+figure;
+t = ts_ - ts_(1);
+for i=1:length(t)
+   delt_r_c(i) = norm(EKF_log(i,1:3)-EKF_log(i,15:17));  
+end
+
+y = delt_r_c;
+y(end) = NaN;
+patch(x,y,c,'EdgeColor','interp','LineWidth',4,'LineStyle','--')
+
+hold all;
+for i=1:length(t)
+   delt_r_c(i) = norm(EKF_log(i,8:10)-EKF_log(i,15:17));  
+end
+stairs(t,delt_r_c,'LineStyle','-.','color','magenta');
+grid on
+colorbar;

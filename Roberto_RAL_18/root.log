@@ -1,12 +1,10 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.6.13)  23 FEB 2018 18:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=latex 2016.6.7)  24 FEB 2018 08:56
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**root.tex
-(./root.tex
-LaTeX2e <2015/01/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(./ieeeconf.cls
+**./root.tex
+(root.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+(ieeeconf.cls
 Document Class: ieeeconf 2016/4/23 revision V1.6b by Pradeep Misra
 \@IEEEtrantmpdimenA=\dimen102
 \@IEEEtrantmpdimenB=\dimen103
@@ -15,7 +13,7 @@ Document Class: ieeeconf 2016/4/23 revision V1.6b by Pradeep Misra
 \@IEEEtrantmptoksA=\toks14
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 794.
 
-(/opt/TeXLive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 \@IEEEnormalsizefontbaselineskip=\skip41
@@ -99,45 +97,44 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 )
 ** ATTENTION: Overriding command lockouts (line 9).
 ** ATTENTION: Overriding IEEE standard margins (line 12).
-(/opt/TeXLive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/opt/TeXLive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/opt/TeXLive/2015/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
 
-(/opt/TeXLive/2015/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/opt/TeXLive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
 )
-Package graphics Info: Driver file: dvips.def on input line 94.
+Package graphics Info: Driver file: dvips.def on input line 96.
 
-(/opt/TeXLive/2015/texmf-dist/tex/latex/graphics/dvips.def
-File: dvips.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvips.def"
+File: dvips.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 ))
 \Gin@req@height=\dimen113
 \Gin@req@width=\dimen114
 )
-(/opt/TeXLive/2015/texmf-dist/tex/latex/multirow/multirow.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen115
 )
-(/opt/TeXLive/2015/texmf-dist/tex/latex/geometry/geometry.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/opt/TeXLive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is not detected.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
-(/opt/TeXLive/2015/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/opt/TeXLive/2015/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count91
@@ -152,42 +149,43 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen122
 \Gm@layoutvoffset=\dimen123
 \Gm@dimlist=\toks16
-)
-(/opt/TeXLive/2015/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2016/03/10 v2.15b AMS math features
 \@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
-(/opt/TeXLive/2015/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2000/06/29 v2.01
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
 
-(/opt/TeXLive/2015/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks17
 \ex@=\dimen124
 ))
-(/opt/TeXLive/2015/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen125
 )
-(/opt/TeXLive/2015/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count94
-LaTeX Info: Redefining \frac on input line 210.
+LaTeX Info: Redefining \frac on input line 199.
 \uproot@=\count95
 \leftroot@=\count96
-LaTeX Info: Redefining \overline on input line 306.
+LaTeX Info: Redefining \overline on input line 297.
 \classnum@=\count97
 \DOTSCASE@=\count98
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
 \big@size=\dimen126
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \macc@depth=\count99
 \c@MaxMatrixCols=\count100
 \dotsspace@=\muskip10
@@ -208,36 +206,37 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \multlinegap=\skip48
 \multlinetaggap=\skip49
 \mathdisplay@stack=\toks21
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
 )
-(/opt/TeXLive/2015/texmf-dist/tex/latex/setspace/setspace.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/opt/TeXLive/2015/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip50
-\f@ncyO@elh=\skip51
-\f@ncyO@erh=\skip52
-\f@ncyO@olh=\skip53
-\f@ncyO@orh=\skip54
-\f@ncyO@elf=\skip55
-\f@ncyO@erf=\skip56
-\f@ncyO@olf=\skip57
-\f@ncyO@orf=\skip58
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip50
+\f@nch@O@elh=\skip51
+\f@nch@O@erh=\skip52
+\f@nch@O@olh=\skip53
+\f@nch@O@orh=\skip54
+\f@nch@O@elf=\skip55
+\f@nch@O@erf=\skip56
+\f@nch@O@olf=\skip57
+\f@nch@O@orf=\skip58
 )
-(/opt/TeXLive/2015/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
 
-(/opt/TeXLive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: xetex.def on input line 142.
+Package color Info: Driver file: dvips.def on input line 144.
 
-(/opt/TeXLive/2015/texmf-dist/tex/xelatex/xetex-def/xetex.def
-File: xetex.def 2015/03/25 v4.04 LaTeX color/graphics driver for XeTeX (TeX Liv
-e/RRM/JK)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 ))
-(/opt/TeXLive/2015/texmf-dist/tex/latex/tools/array.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen133
 \extrarowheight=\dimen134
@@ -245,35 +244,51 @@ Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip59
 \backup@length=\skip60
 )
-(/opt/TeXLive/2015/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen135
+\epsfysize=\dimen136
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psfrag\psfrag.sty"
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count106
+\pfg@scount=\count107
+\pfg@temp=\write3
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/opt/TeXLive/2015/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-No file root.aux.
+(root.aux
+
+LaTeX Warning: Label `fig:res_1' multiply defined.
+
+)
 \openout1 = `root.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 159.
-LaTeX Font Info:    ... okay on input line 159.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: dvips
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -304,60 +319,43 @@ LaTeX Font Info:    ... okay on input line 159.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 163.
-(/opt/TeXLive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Try loading font information for U+msa on input line 171.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 163.
+LaTeX Font Info:    Try loading font information for U+msb on input line 171.
 
-(/opt/TeXLive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Invalid UTF-8 byte or sequence at line 171 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 171 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmb7t!
-Missing character: There is no ï¿½ in font ptmb7t!
- (./Text.tex
+Missing character: There is no Ò in font ptmb7t!
+Missing character: There is no Ó in font ptmb7t!
+ (Text.tex
+File: motiv.eps Graphic file (type eps)
 
-LaTeX Warning: Reference `fig:facility' on page 1 undefined on input line 4.
-
-File: ./figures/160914_0226_a_dlr_robotics_bearbeitet_small.jpg Graphic file (t
-ype QTm)
-<use  "./figures/160914_0226_a_dlr_robotics_bearbeitet_small.jpg" > [1
+<motiv.eps> [1
 
 
 ]
 
-LaTeX Warning: Reference `fig:facility' on page 2 undefined on input line 20.
+LaTeX Warning: Citation `Flores-Abad' on page 2 undefined on input line 44.
 
 
-LaTeX Warning: Citation `Flores-Abad' on page 2 undefined on input line 31.
+LaTeX Warning: Citation `Comport2004' on page 2 undefined on input line 49.
 
 
-LaTeX Warning: Citation `Comport2004' on page 2 undefined on input line 36.
+LaTeX Warning: Citation `Drummond2002' on page 2 undefined on input line 49.
 
 
-LaTeX Warning: Citation `Drummond2002' on page 2 undefined on input line 36.
+LaTeX Warning: Citation `Drummond2002' on page 2 undefined on input line 49.
 
 
-LaTeX Warning: Citation `Drummond2002' on page 2 undefined on input line 36.
+LaTeX Warning: Citation `Oumer2015' on page 2 undefined on input line 49.
 
-
-LaTeX Warning: Citation `Oumer2015' on page 2 undefined on input line 36.
-
-File: ./figures/Motivation_Image.png Graphic file (type QTm)
-<use  "./figures/Motivation_Image.png" > [2]
-
-LaTeX Warning: Reference `fig:motivation' on page 3 undefined on input line 65.
-
-
-
-LaTeX Warning: Reference `fig:blockdiagram' on page 3 undefined on input line 9
-1.
-
-File: ./figures/BlockDia.jpeg Graphic file (type QTm)
-<use  "./figures/BlockDia.jpeg" > [3]
-Underfull \hbox (badness 7722) in paragraph at lines 154--155
+[2]
+File: figures/BlockDia1.eps Graphic file (type eps)
+ <figures/BlockDia1.eps> [3]
+Underfull \hbox (badness 7722) in paragraph at lines 195--196
 []\OT1/ptm/m/n/10 Stress that it is a rigidiza-tion, not a sta-bi-liza-
  []
 
@@ -366,139 +364,87 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
 
-LaTeX Warning: Citation `Drummond2002' on page 6 undefined on input line 228.
+LaTeX Warning: Citation `Drummond2002' on page 6 undefined on input line 269.
 
+File: figures/frame0786_result_cam0.eps Graphic file (type eps)
+<figures/frame0786_result_cam0.eps>
+File: figures/frame0849_result_cam0.eps Graphic file (type eps)
+ <figures/frame0849_result_cam0.eps>
+File: figures/frame0922_result_cam0.eps Graphic file (type eps)
 
-LaTeX Warning: Reference `fig:TrackingImages' on page 6 undefined on input line
- 230.
-
-File: ./figures/frame0786_result_cam0.png Graphic file (type QTm)
-<use  "./figures/frame0786_result_cam0.png" >
-File: ./figures/frame0849_result_cam0.png Graphic file (type QTm)
-
-<use  "./figures/frame0849_result_cam0.png" >
-File: ./figures/frame0922_result_cam0.png Graphic file (type QTm)
-
-<use  "./figures/frame0922_result_cam0.png" >
-File: ./figures/frame0954_result_cam0.png Graphic file (type QTm)
-
-<use  "./figures/frame0954_result_cam0.png" > [6]
-Missing character: There is no Ã‰ in font ptmr7t!
-Missing character: There is no â€“ in font ptmr7t!
- [7]
-Missing character: There is no Ã¼ in font ptmr7t!
-Missing character: There is no Ã¼ in font ptmr7t!
+<figures/frame0922_result_cam0.eps>
+File: figures/frame0954_result_cam0.eps Graphic file (type eps)
+ <figures/frame0954_result_cam0.eps>
+[6]
+File: figures/fig_norm_errors.eps Graphic file (type eps)
+ <figures/fig_norm_errors.eps>
+File: figures/states_EKF.eps Graphic file (type eps)
+ <figures/states_EKF.eps> [7]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ‰ in font ptmr7t!
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no ¼ in font ptmr7t!
 )
-Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Invalid UTF-8 byte or sequence at line 195 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 195 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 195 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Invalid UTF-8 byte or sequence at line 196 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Invalid UTF-8 byte or sequence at line 198 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 198 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Invalid UTF-8 byte or sequence at line 199 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 199 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 199 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 200 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 202 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Invalid UTF-8 byte or sequence at line 204 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 204 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 204 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 204 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Invalid UTF-8 byte or sequence at line 205 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 205 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 205 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Invalid UTF-8 byte or sequence at line 206 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 206 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 206 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Invalid UTF-8 byte or sequence at line 207 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 207 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 207 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Invalid UTF-8 byte or sequence at line 209 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 209 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 209 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Invalid UTF-8 byte or sequence at line 210 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 210 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 210 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 211 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Invalid UTF-8 byte or sequence at line 212 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 212 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Invalid UTF-8 byte or sequence at line 213 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 213 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
-Invalid UTF-8 byte or sequence at line 214 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 214 replaced by U+FFFD.
-Missing character: There is no ï¿½ in font ptmr7t!
-Missing character: There is no ï¿½ in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ð in font ptmr7t!
+Missing character: There is no Ð in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ñ in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ñ in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ð in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ñ in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ð in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ð in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ð in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ð in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ð in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ð in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ð in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
+Missing character: There is no Ò in font ptmr7t!
+Missing character: There is no Ó in font ptmr7t!
 
 
 ** Conference Paper **
@@ -511,21 +457,21 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-[8] (./root.aux)
+[8] (root.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2931 strings out of 493706
- 39972 string characters out of 6148127
- 112338 words of memory out of 5000000
- 6235 multiletter control sequences out of 15000+600000
- 30662 words of font info for 76 fonts, out of 8000000 for 9000
- 1328 hyphenation exceptions out of 8191
- 27i,9n,43p,2495b,296s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 3214 strings out of 493336
+ 44446 string characters out of 3136695
+ 116665 words of memory out of 3000000
+ 6700 multiletter control sequences out of 15000+200000
+ 32207 words of font info for 82 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 34i,16n,43p,2498b,425s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on root.pdf (8 pages).
+Output written on root.dvi (8 pages, 69012 bytes).

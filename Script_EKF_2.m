@@ -1,0 +1,17 @@
+figure;
+subplot(1,2,1);
+h1 = plot(t,EKF_log(:,36:38),'LineWidth',1);hold all;
+h2 = plot(t,[repmat(2*pi/180,size(t))',repmat(0*pi/180,size(t))',repmat(0*pi/180,size(t))'],'-.');grid on;
+xlabel('t2');
+ylabel('om');
+l = legend([h1(1) h2(1)],{'omhat','true'},'Location','South','Orientation','Horizontal');
+subplot(1,2,2);
+h0 = area(t,2*(1-EKF_log(:,39))-0.4,'FaceColor','flat','basevalue',-0.4);hold all;
+set(h0,'FaceColor',[0.8 0.8 0.8]);
+h1 = plot(t,EKF_log(:,4:7),'LineWidth',1);hold all;
+h2 = stairs(t,EKF_log(:,11:14),'-.');
+ylim([-0.4,1]);
+grid on;
+l = legend([h1(1) h2(1)],{'qhat','vision'},'Location','South','Orientation','Horizontal');
+ylabel('qua');
+xlabel('t1');

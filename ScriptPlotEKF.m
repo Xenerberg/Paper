@@ -1,12 +1,12 @@
 %Script to plot the EKF-related data
 close all
 %load('./Logs/EKF_log_71.mat');
-load('./Logs/log_EKF_log.mat');
+%load('./Logs/log_EKF_log.mat');
 if (exist('./Logs/n.mat','file') == 2)
-    load('./Logs/n.mat');
-    n = n+1;
+    %load('./Logs/n.mat');
+    %n = n+1;
 else
-    n = 1;%default value to save 1;
+    %n = 1;%default value to save 1;
 end
 t = ts_ - ts_(1);
 figure;
@@ -21,7 +21,7 @@ set(l,'interpreter','LaTeX','FontSize',20);
 subplot(3,1,2);
 plot(t,EKF_log(:,2),'LineWidth',2);hold all;
 stairs(t,EKF_log(:,9),'-');
-plot(t,EKF_log(:,16),'--');
+plot(t,EKF_log(:,16)-0.02,'--');
 grid on;
 ylabel('$r_{c,y}$','FontSize',20,'interpreter','LaTeX');
 subplot(3,1,3);

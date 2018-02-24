@@ -7,7 +7,20 @@ The task of grasping a target satellite with a free-floating (CHECK) robot was a
 
 The grasping task of interest has been addressed extensively in the literature, first in the context of feedback control and then also in that of optimal control (see Section ???). While in the former the aim is to solve a regulation control problem, often taking advantage of the free-floating dynamics and redundancy of the Chaser, in the latter an open-loop approach is preferred, based on the idea of computing a feasible and optimal trajectory in real-time. Due to the highly constrained task, explained above, the use of a feasible trajectory is recognized to be of great importance.
 \begin{figure}[t!]
-\centering\includegraphics[angle=0,width=0.47\textwidth]{./figures/160914_0226_a_dlr_robotics_bearbeitet_small.jpg}
+\psfrag{x_1}[cc][cc][\FontFigBBB]{{\color{white}$\{\mathcal{I}\}$}}
+\psfrag{t}[cc][cc][\FontFigBBB]{{\color{black}$\{\mathcal{T}\}$}}
+\psfrag{g}[cc][cc][\FontFigBBB]{{\color{black}$\{\mathcal{G}\}$}}
+\psfrag{e}[cc][cc][\FontFigBBB]{{\color{black}$\{\mathcal{E}\}$}}
+\psfrag{b}[cc][cc][\FontFigBBB]{{\color{white}$\{\mathcal{B}\}$}}
+\psfrag{q}[cc][cc][\FontFigBB]{{\color{black}$q$}}
+\psfrag{r}[cc][cc][\FontFigBB]{{\color{black}$r$}}
+\psfrag{g_pose}[cc][cc][\FontFigBB]{{\color{black}$\begin{bmatrix}\eta_t,~ \rho_t \end{bmatrix}$}}
+\psfrag{camera}[cc][cc][\FontFigBB]{{\color{black}$\begin{bmatrix}\mu,~ r_c \end{bmatrix}$}}
+\psfrag{c_pose}[cc][cc][\FontFigBB]{{\color{black}$\begin{bmatrix}\eta_c,~ \rho_c \end{bmatrix}$}}
+\psfrag{t_pose}[cc][cc][\FontFigBB]{{\color{black}$\begin{bmatrix}q,~ r \end{bmatrix}$}}
+
+\centering\includegraphics[angle=0,width=0.47\textwidth]{motiv.eps}
+%\resizebox{0.48\textwidth}{!}{\fontsize{200}{200}\selectfont{\input{motiv.pdf_tex}}}
 \caption{OOS-SIM experimental facility used to reproduce the gravity-free dynamics of the Chaser (left), carrying a Light-Weight Robot, and the Target (right). A camera is mounted on the gripper of the kinematically redundant manipulator, to allow visual servoing.}
 \label{fig:facility}
 %\vspace{-10pt}
@@ -45,7 +58,7 @@ Visual servoing and position-based impedance control were brought together in [L
 %
 %
 \begin{figure}[t!]
-\centering\includegraphics[angle=0,width=0.42\textwidth]{./figures/Motivation_Image}
+%\centering\includegraphics[angle=0,width=0.42\textwidth]{Motivation_Image.png}
 \caption{The motion of the Target grasping point and of the robot end-effector are shwon for the model-based (solid line) and for the true (dotted line) cases.}
 \label{fig:motivation}
 %\vspace{-10pt}
@@ -93,9 +106,35 @@ In this Section we present the methods used to solve the grasping task, to inclu
 Define reference frames: inertia, chaser (?), end-effector, target, grasping point. Diagram needed?
 %
 \begin{figure*}
-%\centering\includegraphics[angle=0,width=0.95\textwidth]{./figures/BlockDia}
 \centering  	\label{fig_1}
-\input{drawing1.pdf_tex}
+\psfrag{text_tr}[cc][cc][\FontFigM]{\textbf{Target tracking}}
+\psfrag{text_st}[cc][cc][\FontFigM]{\textbf{Stabilization}}
+\psfrag{text_vs}[cc][cc][\FontFigM]{Visual Servo}
+\psfrag{text_pd}[cc][cc][\FontFigM]{\small{\begin{tabular}{@{}l@{}} Compliant\\Controller\\(PD+nullspace\end{tabular}}}
+\psfrag{text_pl}[cc][cc][\FontFigM]{\small{\begin{tabular}{@{}l@{}} Plant\\(Chaser\\+manipulator\\dynamics\end{tabular}}}
+\psfrag{text_mp}[cc][cc][\FontFigM]{{\begin{tabular}{@{}l@{}} Motion\\Synthesizer \end{tabular}}}
+\psfrag{text_js}[cc][cc][\FontFigM]{\small{\begin{tabular}{@{}l@{}} Joint-space\\stabilization\\controller \end{tabular}}}
+\psfrag{t1}[cc][cc][\FontFigM]{\small{\begin{tabular}{@{}l@{}} Camera\\Vision \end{tabular}}}
+\psfrag{t2}[cc][cc][\FontFigM]{\small{\begin{tabular}{@{}l@{}} EKF\\Observer \end{tabular}}}
+\psfrag{txt_k}[cc][cc][\FontFigM]{\small{\begin{tabular}{@{}l@{}} Kinematics\\(Base/manipulator) \end{tabular}}}
+\psfrag{t4}[cc][cc][\FontFigM]{\tiny{$\begin{bmatrix}q(t_g)\\ \dot{q}(t_g)\end{bmatrix}$}}
+\psfrag{EKF_out}[cc][cc][\FontFigM]{\tiny{$\hat{H}_{eg}$}}
+\psfrag{cam}[cc][cc][\FontFigM]{\tiny{$H_{eg}$}}
+\psfrag{ts}[cc][cc][\FontFigM]{\tiny{$10$ [Hz]}}
+\psfrag{t_3}[cc][cc][\FontFigM]{\tiny{$\tau$}}
+\psfrag{mp_car}[cc][cc][\FontFigM]{\tiny{$\begin{bmatrix}H_{eg,ref}\\ V_{eg,ref}\end{bmatrix}$}}
+\psfrag{t_5}[cc][cc][\FontFigM]{\tiny{$\begin{Bmatrix}V_{e} & \dot{q} & H_{e} & q\end{Bmatrix}$}}
+\psfrag{mp_joint}[cc][cc][\FontFigM]{\tiny{$\begin{bmatrix}q_{ref}\\ \dot{q}_{ref}\end{bmatrix}$}}
+\psfrag{vs_out}[cc][cc][\FontFigM]{\tiny{$\begin{bmatrix}H_{e,des}\\ V_{e,des}\end{bmatrix}$}}
+\psfrag{cc_out}[cc][cc][\FontFigM]{\tiny{$\begin{bmatrix}\tau_{cart}\\ \tau_{null}\end{bmatrix}$}}
+\psfrag{int}[cc][cc][\FontFigM]{$\int$}
+\psfrag{V_e}[cc][cc][\FontFigM]{\tiny{$V_e$}}
+\psfrag{H_e}[cc][cc][\FontFigM]{\tiny{$H_e$}}
+\psfrag{j}[cc][cc][\FontFigM]{\tiny{$\begin{bmatrix}q\\ \dot{q}\end{bmatrix}$}}
+\psfrag{H_T}[cc][cc][\FontFigM]{\tiny{$H_t$}}
+\centering\includegraphics[angle=0,width=0.95\textwidth]{BlockDia1.eps}
+
+
 \caption{Control system architecture with...}
 \label{fig:blockdiagram}
 \end{figure*}
@@ -256,10 +295,10 @@ The complex motion trajectory (tumbling and an abrupt change of angular velocity
 
 %
 \begin{figure*}
-\centering\includegraphics[angle=0,width=0.24\textwidth]{./figures/frame0786_result_cam0}
-\centering\includegraphics[angle=0,width=0.24\textwidth]{./figures/frame0849_result_cam0}
-\centering\includegraphics[angle=0,width=0.24\textwidth]{./figures/frame0922_result_cam0}
-\centering\includegraphics[angle=0,width=0.24\textwidth]{./figures/frame0954_result_cam0}
+\centering\includegraphics[angle=0,width=0.24\textwidth]{frame0786_result_cam0}
+\centering\includegraphics[angle=0,width=0.24\textwidth]{frame0849_result_cam0}
+\centering\includegraphics[angle=0,width=0.24\textwidth]{frame0922_result_cam0}
+\centering\includegraphics[angle=0,width=0.24\textwidth]{frame0954_result_cam0}
 \caption{Exemplar images during visual tracking for approach and tracking phase. The overlay of the model contours and image edges shows the successful tracking and pose estimation. The axes of the coordinate frame of grasping point is indicated in red, green and blue. The target features reduce significantly at very close range because of gripper occlusion (black in the image) and camera field of view.}
 \label{fig:TrackingImages}
 \end{figure*}
@@ -368,6 +407,37 @@ Experiments (Roberto, Hrishik, Marco):
 	vii. show singularity with N45 (or N30) and inertia servicer divided by 10 - perhaps seen on OOS-SIM
 
 %
+\begin{figure}[t!]
+\psfrag{y1}[cc][cc][\FontFigB]{$||\Delta r_c||^2$}
+\psfrag{y2}[cc][cc][\FontFigB]{$||\Delta r_c||^2$}
+\psfrag{leg1}[cc][cc][\FontFigS]{$EKF$}
+\psfrag{leg2}[cc][cc][\FontFigS]{$Vision$}
+\psfrag{x}[cc][cc][\FontFigS]{$EKF$}
+\psfrag{y}[cc][cc][\FontFigS]{$Vision$}
+\psfrag{t}[cc][cc][\FontFigB]{$t$[sec]}
+\psfrag{ekf}[cc][cc][\FontFigS]{$EKF$}
+\psfrag{vision}[cc][cc][\FontFigS]{$Vision$}
+\centering\includegraphics[angle=0,width=0.47\textwidth]{fig_norm_errors.eps}
+%\resizebox{0.48\textwidth}{!}{\fontsize{200}{200}\selectfont{\input{motiv.pdf_tex}}}
+\caption{Comparison of direct-Vision measurements with EKF, based on the norm, $||\Delta r_c^2||$. As $||r_c|| \rightarrow 0$, the statistical measure of fitness, $\chi^2 \rightarrow \infty $ eventually leading to pose estimation failures due to degenerate observability}
+\label{fig:res_1}
+%\vspace{-10pt}
+\end{figure}
+\begin{figure}[t!]
+\psfrag{om}[cc][cc][\FontFigB]{$\omega$}
+\psfrag{omhat}[cc][cc][\FontFigB]{$\hat{\omega}$}
+\psfrag{true}[cc][cc][\FontFigB]{$\omega$}
+\psfrag{t2}[cc][cc][\FontFigB]{$t$[sec]}
+\psfrag{t1}[cc][cc][\FontFigB]{$t$[sec]}
+\psfrag{qua}[cc][cc][\FontFigB]{$\mu$}
+\psfrag{qhat}[cc][cc][\FontFigB]{$\hat{\mu_{EKF}}$}
+\psfrag{vision}[cc][cc][\FontFigB]{$\mu_V$}
+\centering\includegraphics[angle=0,width=0.47\textwidth]{states_EKF.eps}
+%\resizebox{0.48\textwidth}{!}{\fontsize{200}{200}\selectfont{\input{motiv.pdf_tex}}}
+\caption{a) Target state estimation ($\omega$) in EKF for tracking control. b) Divergence of Computer vision's orientation estimate towards end of maneuver}
+\label{fig:res_1}
+%\vspace{-10pt}
+\end{figure}
 \section{Conclusion - 0,25 pp}
 
 - Shown feasibility of method (pp, VT for approach with CV and KF, tracking, grasp, stabilization), with experimental results on OOS-SIM.
